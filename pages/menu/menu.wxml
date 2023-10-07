@@ -1,0 +1,17 @@
+<view wx:for="{{items}}" wx:key="*this">
+  <view class="header">{{item.type}}</view>
+  <view class="flexbox">
+
+    <view class="item" wx:for="{{item.list}}" wx:key="*this">
+      <image mode="widthFix" src="{{item.cover}}"></image>
+      <view class="bottom">
+        <view class="left">
+          <view class="title">{{item.title}}</view>
+          <view class="desc">新人价</view>
+          <view class="price">￥{{item.price}}<text class="old">￥30</text></view>
+        </view>
+        <view class="add" data-item="{{item}}" bindtap="order">+</view>
+      </view>
+    </view>
+  </view>
+</view>

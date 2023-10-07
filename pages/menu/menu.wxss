@@ -1,0 +1,70 @@
+/* pages/menu/menu.wxss */
+page{
+  background-color: #eee;
+}
+.item{
+  background-color: white;
+  width: 350rpx;
+}
+
+.item>image{
+  width:100%;
+}
+
+.bottom{
+  display: flex;
+}
+
+.left{
+  flex:1; /*占用所有剩余空间*/
+}
+
+.add{
+  width:40rpx;
+  height: 40rpx;
+  background-color: blue;
+  color:white;
+  font-size: 30rpx;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 80rpx;
+}
+
+.title{
+  font-weight: bold;
+  line-height: 80rpx;
+  margin-left: 20rpx;
+}
+
+.desc{
+  font-size: 26rpx;
+  width:100rpx;
+  padding-left: 20rpx;
+  color:orange;
+  border:1px solid orange;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+}
+
+.price{
+  color:red;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+
+.old{
+  color:gray;
+  font-size: 24rpx;
+  text-decoration: line-through;
+  line-height: 60rpx;
+}
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin:20rpx;
+}
+.header{
+  margin:20rpx;
+  font-weight: bold;
+}

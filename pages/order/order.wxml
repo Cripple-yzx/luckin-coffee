@@ -1,0 +1,13 @@
+<block wx:if="{{list}}">
+    <view class="flexbox" wx:for="{{list}}">
+    <image mode="widthFix" class="cover" src="{{item.cover}}"></image>
+    <view class="title">
+      <view>{{item.title}}</view>
+      <view>￥{{item.price}}</view>
+    </view>
+    <button type="primary" size="mini">评价</button>
+  </view>
+</block>
+<block wx:else>
+     没有订单，快去购物吧
+</block>

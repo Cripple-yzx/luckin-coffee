@@ -1,0 +1,6 @@
+<!--pages/contact/contact.wxml-->
+<button type="primary" open-type="contact" bindcontact="handleContact" session-from="sessionFrom">
+  联系客服
+</button>
+<map id="map" longitude="103.59" latitude="30.89" scale="14" markers="{{markers}}">
+</map>

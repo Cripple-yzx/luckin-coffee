@@ -1,0 +1,26 @@
+
+page{
+  background-color: #eee;
+}
+
+.flexbox{
+  margin:20rpx;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.cover{
+  flex:4;
+}
+
+.title{
+  flex:4;
+  margin-left: 10rpx;
+  line-height: 60rpx;
+
+}
+
+button{
+  flex:2;
+}

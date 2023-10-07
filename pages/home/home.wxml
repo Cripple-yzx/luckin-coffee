@@ -1,0 +1,62 @@
+<!--pages/home/home.wxml-->
+<swiper class="swiper1" autoplay circular>
+    <!-- 第一屏 -->
+    <swiper-item>
+     <image src="/images/home/banner1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+     <image src="/images/home/banner2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+     <image src="/images/home/banner3.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+     <image src="/images/home/banner4.jpg"></image>
+    </swiper-item>
+</swiper>
+<view>
+  <view class="flexbox">
+     <image mode="heightFix" class="img1" src="/images/home/icon11.jpg"></image>
+     <image mode="heightFix" class="img1" src="/images/home/icon12.jpg"></image>
+     <image mode="heightFix" class="img1" src="/images/home/icon13.jpg"></image>
+  </view>
+  <view class="flexbox">
+    <image mode="heightFix"  class="img2" src="/images/home/icon21.jpg"></image>
+    <image mode="heightFix"  class="img2" src="/images/home/icon22.jpg"></image>
+    <image mode="heightFix"  class="img2" src="/images/home/icon23.jpg"></image>
+    <image mode="heightFix"  class="img2" src="/images/home/icon24.jpg"></image>
+  </view>
+</view>
+<view>
+  <swiper class="swiper2" autoplay interval="8000">
+    <swiper-item>
+        <image src="/images/home/ban1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="/images/home/ban2.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view>
+  <view class="header">福利中心</view>
+  <scroll-view class="benifit" scroll-x>   
+      <image mode="heightFix" class="card" src="/images/home/card01.jpg"></image>
+      <image mode="heightFix" class="card" src="/images/home/card02.jpg"></image>
+      <image mode="heightFix" class="card" src="/images/home/card03.jpg"></image>
+      <image mode="heightFix" class="card" src="/images/home/card04.jpg"></image>
+      <image mode="heightFix" class="card" src="/images/home/card05.jpg"></image>   
+  </scroll-view>
+</view>
+<view>
+  <view class="header">产品推荐</view>
+  <view class="hot"> 
+      <image mode="widthFix" class="prod" src="/images/home/product01.jpg"></image>
+      <image mode="widthFix" class="prod" src="/images/home/product02.jpg"></image>
+      <image mode="widthFix" class="prod" src="/images/home/product03.jpg"></image>
+      <image mode="widthFix" class="prod" src="/images/home/product04.jpg"></image>
+      <image mode="widthFix" class="prod" src="/images/home/product05.jpg"></image>
+      <image mode="widthFix" class="prod" src="/images/home/product06.jpg"></image>
+      <image mode="widthFix" class="prod" src="/images/home/product07.jpg"></image>
+      <image mode="widthFix" class="prod" src="/images/home/product08.jpg"></image>   
+  </view>
+</view>
